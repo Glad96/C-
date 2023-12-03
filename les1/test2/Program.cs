@@ -2,7 +2,7 @@
 {
     static void Main()
     {
-        Console.Write("Введите координаты точки X и Y через пробел:");string[] coordinates = Console.ReadLine().Split(' ');
+        Console.Write("Введите координаты точки X и Y через пробел:"); 
         int x = Convert.ToInt32(coordinates[0]);
         int y = Convert.ToInt32(coordinates[1]);
         if (x > 0 && y > 0)

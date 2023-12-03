@@ -3,16 +3,16 @@ class Program
 {
     static void Main()
     {
-         int[] array = {10,1,2,33,4,5,61,71,8};
-         int X = 0;
-         foreach (int item in array)
-         {
+        int[] array = { 10, 1, 2, 33, 4, 5, 61, 71, 8 };
+        int X = 0;
+        foreach (int item in array)
+        {
             if (item > 19 && item < 91)
-                {
+            {
                 X += 1;
-                }
-         }
-         
+            }
+        }
+
         Console.WriteLine(X);
     }
-}       
+}
