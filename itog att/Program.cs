@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Ccылка на блок схему картинкой https://ibb.co/2ZHkXz1
+using System;
 namespace Program
 {
     class Program
